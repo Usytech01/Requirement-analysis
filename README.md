@@ -1,9 +1,10 @@
 # 📋 Requirement Analysis: Defining Features and Functionalities  
-
 ---
 
 ## 📌 What is Requirement Analysis?  
-Requirement Analysis is a **critical phase** in the Software Development Lifecycle (SDLC) where the project team gathers, analyzes, and defines requirements. It ensures all stakeholders have a shared understanding of **what the system should do** and **how it should perform**.  
+Requirement Analysis is a **critical phase** in the Software Development Lifecycle (SDLC). It involves identifying, gathering, analyzing, documenting, and validating the requirements for a software product.  
+
+The purpose is to ensure **all stakeholders (users, developers, testers, and business owners)** share the same understanding of **what the system should do** and **how it should perform**.  
 
 ---
 
@@ -11,70 +12,81 @@ Requirement Analysis is a **critical phase** in the Software Development Lifecyc
 
 | Benefit | Description |
 |---------|-------------|
-| 🎯 Clarity | Defines stakeholder expectations and reduces ambiguity |
-| 📐 Scope Definition | Prevents scope creep by setting clear project boundaries |
-| 🏗️ Foundation | Serves as the basis for design & development |
-| ⏱️ Estimation | Enables accurate cost, time, and resource planning |
-| ✅ Quality | Ensures final product meets expectations and increases satisfaction |
+| 🎯 Clarity | Reduces ambiguity by making requirements explicit |
+| 📐 Scope Control | Prevents **scope creep** through well-defined boundaries |
+| 🏗️ Solid Foundation | Serves as blueprint for design & development |
+| ⏱️ Estimation | Enables accurate estimation of **time, resources, and costs** |
+| ✅ Quality Assurance | Ensures final product aligns with business needs |
 
 ---
 
 ## 🔑 Key Activities in Requirement Analysis  
 
 ### 1. Requirement Gathering 🗂️  
-- **Interviews** with stakeholders  
-- **Surveys & Questionnaires** for larger audience input  
-- **Workshops** to collaboratively discuss requirements  
-- **Observation** of user environment and workflows  
-- **Document Analysis** of existing systems  
+Techniques used:  
+- **Interviews** → One-on-one with stakeholders  
+- **Surveys** → Collect input from a wide audience  
+- **Workshops** → Collaborative sessions with users  
+- **Observation** → Studying real user workflows  
+- **Document Analysis** → Reviewing existing systems/policies  
+
+---
 
 ### 2. Requirement Elicitation ✍️  
-- **Brainstorming** sessions  
-- **Focus Groups** for deeper insights  
-- **Prototyping** for early visualization  
+- **Brainstorming sessions** to capture ideas  
+- **Focus groups** for deeper insights  
+- **Prototyping** (wireframes/mockups) to visualize features  
+
+---
 
 ### 3. Requirement Documentation 📚  
+Artifacts created:  
 - **Software Requirement Specification (SRS)**  
-- **User Stories** written from the user perspective  
-- **Use Cases** and **Diagrams**  
+- **User Stories** (As a user, I want X so that Y)  
+- **Use Cases** (formal scenarios & diagrams)  
 
-### 4. Requirement Analysis and Modeling 📊  
-- **Prioritization** of requirements by value/impact  
-- **Feasibility Analysis** (technical, financial, time)  
-- **Modeling** (DFDs, ERDs, Flowcharts)  
+---
+
+### 4. Requirement Analysis & Modeling 📊  
+- **Prioritization** (MoSCoW: Must, Should, Could, Won’t)  
+- **Feasibility checks** (technical, financial, time)  
+- **Models** → DFDs, ERDs, Flowcharts  
+
+---
 
 ### 5. Requirement Validation ✅  
-- **Review & Approval** with stakeholders  
-- **Acceptance Criteria** definition  
-- **Traceability Matrix** to ensure coverage  
+- **Review & Approval** from stakeholders  
+- **Acceptance Criteria** for measurable success  
+- **Traceability Matrix** linking requirements to design & tests  
 
 ---
 
 ## 🛠️ Types of Requirements  
 
 ### Functional Requirements ⚙️  
-> Describe **what the system should do**  
 
 | Feature | Description |
 |---------|-------------|
-| 🔍 Search Properties | Filter by location, price, availability |
-| 📝 User Registration | Create accounts with personal details |
-| 🏠 Property Listings | Show images, descriptions, prices |
-| 📅 Booking System | Book, cancel, and view reservations |
-| 🔑 Authentication | Secure login & registration |
+| 🔍 **Search Properties** | Filter listings by location, price, date, amenities |
+| 📝 **User Registration** | Create accounts with personal details & login credentials |
+| 🏠 **Property Listings** | Show property images, details, availability |
+| 📅 **Booking System** | Reserve, view, cancel bookings |
+| 🔑 **Authentication** | Secure login/registration |
+| ⭐ **Reviews** | Users can add and view property reviews |
+| 📩 **Notifications** | Email/SMS confirmations for bookings |
 
 ---
 
 ### Non-Functional Requirements 🛡️  
-> Define **how the system should perform**  
 
 | Attribute | Requirement |
 |-----------|-------------|
-| ⚡ Performance | Pages load < 2s; handle 1000 concurrent users |
-| 🔒 Security | Data encryption, secure login, prevent attacks |
-| 📈 Scalability | Support horizontal scaling |
-| 🎨 Usability | Intuitive UI/UX with accessibility |
-| 🔄 Reliability | 99.9% uptime, quick recovery from failures |
+| ⚡ **Performance** | Pages load < 2s; system supports 1000 concurrent users |
+| 🔒 **Security** | End-to-end encryption, prevent SQLi, XSS |
+| 📈 **Scalability** | Horizontal scaling for traffic spikes |
+| 🎨 **Usability** | WCAG-compliant UI/UX |
+| 🔄 **Reliability** | 99.9% uptime with auto-recovery |
+| 🌍 **Localization** | Support multiple currencies & languages |
 
 ---
 
@@ -82,8 +94,8 @@ Requirement Analysis is a **critical phase** in the Software Development Lifecyc
 
 ```mermaid
 flowchart TD
-    A[📥 Requirement Gathering] --> B[✍️ Requirement Elicitation]
-    B --> C[📚 Documentation]
-    C --> D[📊 Analysis & Modeling]
-    D --> E[✅ Validation]
-    E --> F[🚀 Development Ready]
+    A[📥 Gather Requirements] --> B[✍️ Elicit Requirements]
+    B --> C[📚 Document Requirements]
+    C --> D[📊 Analyze & Model]
+    D --> E[✅ Validate & Approve]
+    E --> F[🚀 Ready for Development]
