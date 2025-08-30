@@ -1,152 +1,140 @@
-# Requirement-analysis
-Requirement Analysis: Defining Features and Functionalities
-🔍 What is Requirement Analysis?
+# Requirement Analysis: Defining Features and Functionalities
 
-Requirement Analysis is a critical phase in the Software Development Lifecycle (SDLC) where the project team gathers, analyzes, and defines the requirements of the software product.
-It ensures that all stakeholders share a clear and mutual understanding of what the system should do and how it should perform.
+## 📌 What is Requirement Analysis?
+Requirement Analysis is a critical phase in the software development lifecycle (SDLC) where the project team gathers, analyzes, and defines the requirements of the software product to be developed. This process ensures that all stakeholders have a clear and mutual understanding of what the system should do and how it should perform.
 
-⚡ Why is Requirement Analysis Important?
+---
 
-Clarity & Understanding: Eliminates ambiguity by capturing stakeholder expectations.
+## 💡 Why is Requirement Analysis Important?
+- **Clarity and Understanding**: Reduces ambiguity by clarifying stakeholder expectations.  
+- **Scope Definition**: Clearly defines the scope, helping prevent scope creep.  
+- **Basis for Design and Development**: Provides a solid foundation for system design.  
+- **Cost and Time Estimation**: Facilitates accurate estimation of resources, time, and cost.  
+- **Quality Assurance**: Ensures the final product meets specified requirements, increasing customer satisfaction.  
 
-Scope Definition: Prevents scope creep by clearly outlining boundaries.
+---
 
-Foundation for Design & Development: Provides a reliable base for system architecture.
+## 🔑 Key Activities in Requirement Analysis
 
-Accurate Estimations: Improves cost, resource, and timeline planning.
+### 1. Requirement Gathering 🗂️
+- **Interviews**: Collect detailed info directly from stakeholders.  
+- **Surveys/Questionnaires**: Broader input from a large audience.  
+- **Workshops**: Collaborative discussions for requirement discovery.  
+- **Observation**: Analyze user environment and behaviors.  
+- **Document Analysis**: Study existing documentation and systems.  
 
-Quality Assurance: Ensures the end product aligns with requirements → higher customer satisfaction.
+### 2. Requirement Elicitation ✍️
+- **Brainstorming**: Generate and refine ideas.  
+- **Focus Groups**: Gather insights from selected stakeholder groups.  
+- **Prototyping**: Visualize and refine requirements via prototypes.  
 
-🛠️ Key Activities in Requirement Analysis
-1. Requirement Gathering 🗂️
+### 3. Requirement Documentation 📚
+- **Requirement Specification Document (SRS)**: Comprehensive requirements list.  
+- **User Stories**: Functionalities described from the user perspective.  
+- **Use Cases**: Diagrams showing system–user interactions.  
 
-Interviews: One-on-one sessions with stakeholders.
+### 4. Requirement Analysis and Modeling 📊
+- **Requirement Prioritization**: Order requirements by importance/impact.  
+- **Feasibility Analysis**: Assess technical, financial, and time viability.  
+- **Modeling**: Create DFDs, ERDs, or flow diagrams to visualize requirements.  
 
-Surveys/Questionnaires: Collecting large-scale feedback.
+### 5. Requirement Validation ✅
+- **Review and Approval**: Confirm requirements with stakeholders.  
+- **Acceptance Criteria**: Define measurable success conditions.  
+- **Traceability**: Use traceability matrices to link requirements to development and testing.  
 
-Workshops: Collaborative discussions for requirement alignment.
+---
 
-Observation: Studying end-users in their environment.
+## 🛠️ Types of Requirements
 
-Document Analysis: Reviewing existing documentation & legacy systems.
+### Functional Requirements ⚙️
+> Define **what** the system should do.
 
-2. Requirement Elicitation ✍️
+**Examples:**
+- User authentication  
+- Property search  
+- Booking system  
+- User registration  
 
-Brainstorming: Generating diverse ideas.
+**Key Functional Requirements:**
+- **Search Properties**: Filter by location, price, availability.  
+- **User Registration**: Create accounts with personal details.  
+- **Property Listings**: Show images, prices, and property info.  
+- **Booking System**: Book, manage, and view booking details.  
+- **User Authentication**: Secure login/registration.  
 
-Focus Groups: In-depth discussions with targeted stakeholders.
+### Non-functional Requirements 🛡️
+> Define **how** the system should perform.
 
-Prototyping: Building mockups to refine requirements.
+**Key Non-functional Requirements:**
+- **Performance**: Pages load within 2 seconds; supports 1000 concurrent users.  
+- **Security**: Data encryption, secure login, vulnerability protection.  
+- **Scalability**: Horizontal scaling for high traffic.  
+- **Usability**: Intuitive UI/UX.  
+- **Reliability**: 99.9% uptime, fast recovery from failures.  
 
-3. Requirement Documentation 📚
+---
 
-Requirement Specification Document (SRS).
+## 🔄 Requirement Analysis Process
 
-User Stories: Functional descriptions from a user’s perspective.
+1. **Requirement Gathering**  
+   Collect requirements via interviews, surveys, workshops, and document reviews.  
 
-Use Cases: Diagrams showing system-user interactions.
+2. **Requirement Elicitation**  
+   Refine requirements using brainstorming, focus groups, and prototyping.  
 
-4. Requirement Analysis & Modeling 📊
+3. **Requirement Documentation**  
+   Structure requirements into SRS, user stories, and use cases.  
 
-Prioritization: Ranking requirements by business value.
+4. **Requirement Analysis and Modeling**  
+   Prioritize and model requirements visually.  
 
-Feasibility Analysis: Evaluating technical, financial, and time feasibility.
+5. **Requirement Validation**  
+   Validate requirements with stakeholders and ensure traceability.  
 
-Modeling: Creating DFDs, ER diagrams, and process models.
+---
 
-5. Requirement Validation ✅
+## 📊 Use Case Diagrams
 
-Review & Approval: Confirming accuracy with stakeholders.
+### What are Use Case Diagrams?
+Visual representations of interactions between **actors (users)** and the **system**.
 
-Acceptance Criteria: Defining clear measurable outcomes.
+### Steps to Create:
+1. Identify actors (e.g., guest, registered user, admin).  
+2. Define use cases (e.g., search properties, book property, manage listings).  
+3. Draw interactions between actors and use cases.  
 
-Traceability: Ensuring all requirements map to development and testing.
+**Benefits:**
+- Clear visual representation of system functionality.  
+- Organizes and structures requirements.  
+- Improves stakeholder–developer communication.  
 
-🔧 Types of Requirements
-Functional Requirements ⚙️
+---
 
-➡️ Define what the system should do.
-Examples:
+## ✅ Acceptance Criteria
 
-Search properties
+### What is Acceptance Criteria?
+Conditions that a feature must meet before being accepted.  
 
-User registration
+### How to Define:
+- Be **specific and measurable**.  
+- Cover **functional and non-functional** aspects.  
 
-Booking system
+**Example – Booking System:**  
+“Users should be able to select available dates, confirm booking, and receive a confirmation email within 2 minutes.”  
 
-Authentication & authorization
+**Benefits:**
+- Ensures alignment among stakeholders.  
+- Provides basis for testing and validation.  
+- Helps maintain software quality.  
 
-Key Functional Features:
+---
 
-Search Properties: Filter by location, price, and availability.
+## 📌 Putting It All Together
 
-User Registration: Create accounts with secure credentials.
+### Steps to Conduct Requirement Analysis:
+1. **Gather Requirements**  
+   - Interviews, surveys, workshops, and documentation review.  
 
-Property Listings: Show images, descriptions, and amenities.
-
-Booking System: Book, manage, and view reservations.
-
-User Authentication: Ensure secure login/registration.
-
-Non-Functional Requirements 🛡️
-
-➡️ Define how the system should perform.
-Examples: Performance, security, scalability, usability, reliability.
-
-Key Non-Functional Needs:
-
-Performance: Load pages in ≤ 2s; support 1000+ concurrent users.
-
-Security: Encryption, secure login, protection from vulnerabilities.
-
-Scalability: Handle growing traffic via horizontal scaling.
-
-Usability: Simple, intuitive UI/UX.
-
-Reliability: 99.9% uptime with fast recovery from failures.
-
-📑 Requirement Analysis Process
-
-Gathering: Collect requirements from stakeholders.
-
-Elicitation: Refine and expand requirements.
-
-Documentation: Create structured requirement artifacts.
-
-Analysis & Modeling: Prioritize and model requirements.
-
-Validation: Review with stakeholders + define acceptance criteria.
-
-📊 Use Case Diagrams
-
-Objective: Show interactions between users (actors) and the system (use cases).
-
-Actors: Guest, Registered User, Admin.
-
-Use Cases: Search properties, book property, manage listings.
-
-Benefits:
-✔️ Easy visualization of system functionalities
-✔️ Aligns stakeholders & developers
-✔️ Helps organize requirements
-
-✅ Acceptance Criteria
-
-Definition: Measurable conditions a feature must meet for stakeholder approval.
-
-How to Define:
-
-Be specific, measurable, and testable.
-
-Cover functional + non-functional aspects.
-
-Example (Booking System):
-“Users should be able to select available dates, confirm booking, and receive a confirmation email within 2 minutes.”
-
-Benefits:
-
-Sets clear expectations
-
-Provides a testing benchmark
-
-Improves quality alignment
+2. **Write User Stories**  
+   - Collabor
